@@ -1,0 +1,29 @@
+[
+  {
+    "checkpointId": "chkpt-1791717629062-bobfp",
+    "blockIndex": 0,
+    "blockHash": "465a06888b74ce992af7b99ced7542b1d9f20dff87c47278b8258d0d7ada6abb",
+    "authorityId": "CYBERPROOF_NATIONAL_FORENSIC_AUTHORITY_BD",
+    "authorityPublicKeyFingerprint": "b06ed920432869e52d8af82416495235d63abc1aec816eec6ec84135765c7b12",
+    "timestamp": "2026-10-11T11:20:29.062Z",
+    "signature": "/Ihw+ESkKf68ggmMstuXfJaBJT2E4QIrJ70Ldnl2QnSFYePNhUZO6cjgvfnXgJ92MEElmQZeGW7FOkVZ6PTcBw=="
+  },
+  {
+    "checkpointId": "chkpt-1791717633552-s4q4g",
+    "blockIndex": 10,
+    "blockHash": "dab661a3d33bb022e20fbff3db18c3f7b5ca394c3e275c87cbc10d5c0a51cfc2",
+    "authorityId": "CYBERPROOF_NATIONAL_FORENSIC_AUTHORITY_BD",
+    "authorityPublicKeyFingerprint": "b06ed920432869e52d8af82416495235d63abc1aec816eec6ec84135765c7b12",
+    "timestamp": "2026-10-11T11:20:33.552Z",
+    "signature": "I+65+wtwFGk6D+Olcg3CwaJxHvqY8Fbnf2DLFzeStkhn5Pdxav0UjJBvNQZrtRF/v76I/ofH6zlB+LbH3tyKAA=="
+  },
+  {
+    "checkpointId": "chkpt-1791717633570-f0ojn",
+    "blockIndex": 1,
+    "blockHash": "1bc970eadb25658626fcc5557e503e8bd24b549e003b3d943dba52d6536a4c82",
+    "authorityId": "CYBERPROOF_NATIONAL_FORENSIC_AUTHORITY_BD",
+    "authorityPublicKeyFingerprint": "b06ed920432869e52d8af82416495235d63abc1aec816eec6ec84135765c7b12",
+    "timestamp": "2026-10-11T11:20:33.570Z",
+    "signature": "AP6kf5rw1P450mFpGDvTDPh22cp8hJFYybuX6HaFmXZfuSAnf6vvS8yGiJ7hYn8syfsE1nraP6k8YoOU2LbvDQ=="
+  }
+]

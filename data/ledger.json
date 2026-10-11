@@ -1,0 +1,229 @@
+[
+  {
+    "index": 0,
+    "timestamp": "2026-10-11T00:00:00.000Z",
+    "entryType": "GENESIS",
+    "entryId": "00000000-0000-4000-8000-000000000000",
+    "previousHash": "0000000000000000000000000000000000000000000000000000000000000000",
+    "payloadHash": "6e6083896adb6aef5ecf35e445345e087270e80ac7eedfcd69d4728e04cc0e3e",
+    "blockHash": "465a06888b74ce992af7b99ced7542b1d9f20dff87c47278b8258d0d7ada6abb",
+    "payload": {
+      "message": "CyberProof BD Genesis Block - Immutable Evidence Ledger Initialized",
+      "architecture": "Tamper-Evident Hash Chain",
+      "standard": "SHA-256 Canonical JSON RFC-8785",
+      "authority": "CyberProof Forensic Authority BD",
+      "createdAt": "2026-10-11T00:00:00.000Z"
+    }
+  },
+  {
+    "index": 1,
+    "timestamp": "2026-10-11T11:02:37.363Z",
+    "entryType": "CHECKPOINT",
+    "entryId": "entry-1791716557363-urot1",
+    "previousHash": "465a06888b74ce992af7b99ced7542b1d9f20dff87c47278b8258d0d7ada6abb",
+    "payloadHash": "b35e51b7d6909399992ce475a16df03f9b99bb4a52b619379860408feee6c81f",
+    "blockHash": "1bc970eadb25658626fcc5557e503e8bd24b549e003b3d943dba52d6536a4c82",
+    "payload": {
+      "title": "First Forensic Snapshot",
+      "details": "Verification of system boot",
+      "custodian": "fatima.forensics",
+      "timestamp": "2026-10-11T11:02:37.363Z",
+      "systemStatus": "NOMINAL"
+    }
+  },
+  {
+    "index": 2,
+    "timestamp": "2026-10-11T11:06:49.509Z",
+    "entryType": "EVIDENCE_REGISTERED",
+    "entryId": "evid-1791716809508-2b9vh",
+    "previousHash": "1bc970eadb25658626fcc5557e503e8bd24b549e003b3d943dba52d6536a4c82",
+    "payloadHash": "f41b8b76ab99f5896993cde9830e1edea5240224369cfe18d009ad71ea115b58",
+    "blockHash": "a4d0768f4ab551417253de3be48950b70d3e8e8fe10c812e92924a4cd06bf23e",
+    "payload": {
+      "action": "EVIDENCE_REGISTERED",
+      "evidenceId": "evid-1791716809508-2b9vh",
+      "caseId": "CASE-2026-001",
+      "filename": "memory_dump_pid4102.raw",
+      "fileSizeBytes": 143,
+      "sha256Fingerprint": "a5b13aa8f3abfb73ec1d3256530e2e695c886d6f16b119bf7bfddd38c3fde908",
+      "custodian": "fatima.forensics",
+      "registeredAt": "2026-10-11T11:06:49.508Z"
+    }
+  },
+  {
+    "index": 3,
+    "timestamp": "2026-10-11T11:06:49.526Z",
+    "entryType": "EVIDENCE_REGISTERED",
+    "entryId": "evid-1791716809526-u9f6i",
+    "previousHash": "a4d0768f4ab551417253de3be48950b70d3e8e8fe10c812e92924a4cd06bf23e",
+    "payloadHash": "0929c861f705ad60a8bdcae1f765fc6b2bb835e2698115a00a72caaac37b40d9",
+    "blockHash": "075aba8f04dd79caefb9bc65ac2f671b4fe6b3bcfbfb6b44ace267e3fb314a62",
+    "payload": {
+      "action": "EVIDENCE_REGISTERED",
+      "evidenceId": "evid-1791716809526-u9f6i",
+      "caseId": "CASE-2026-001",
+      "filename": "network_exfil_traffic.pcap",
+      "fileSizeBytes": 119,
+      "sha256Fingerprint": "a6023d4f10a595ba934af3bd04a1d2ed2cc6eac199583c5bbd4d8fca758ec8a3",
+      "custodian": "fatima.forensics",
+      "registeredAt": "2026-10-11T11:06:49.526Z"
+    }
+  },
+  {
+    "index": 4,
+    "timestamp": "2026-10-11T11:06:55.242Z",
+    "entryType": "EVIDENCE_REGISTERED",
+    "entryId": "evid-1791716815242-dkzs2",
+    "previousHash": "075aba8f04dd79caefb9bc65ac2f671b4fe6b3bcfbfb6b44ace267e3fb314a62",
+    "payloadHash": "91511e2a7c0a5f665793b0445974ef976558a990af0a18cfdc9dc2badf327dc4",
+    "blockHash": "149c9d7ae7e95bc727b56fe69658a5f6620a959670a86c76e30c40e445e15759",
+    "payload": {
+      "action": "EVIDENCE_REGISTERED",
+      "evidenceId": "evid-1791716815242-dkzs2",
+      "caseId": "CASE-TEST-01",
+      "filename": "auth_test.log",
+      "fileSizeBytes": 26,
+      "sha256Fingerprint": "ec47a1cbb4830234c873a4da17fa68bb82c5ad0fd83620ce1dee68150b5597f4",
+      "custodian": "fatima.forensics",
+      "registeredAt": "2026-10-11T11:06:55.242Z"
+    }
+  },
+  {
+    "index": 5,
+    "timestamp": "2026-10-11T11:07:04.060Z",
+    "entryType": "EVIDENCE_VERIFIED",
+    "entryId": "verif-1791716824060",
+    "previousHash": "149c9d7ae7e95bc727b56fe69658a5f6620a959670a86c76e30c40e445e15759",
+    "payloadHash": "c4efc982ee7b76cdda1be853784357c2704e40579f5744e974380393d20c3359",
+    "blockHash": "c420121b60f15bd4504a055c0fd11fd13c8bd6d6594c16cacaa62a2f048a9084",
+    "payload": {
+      "action": "EVIDENCE_VERIFICATION_ATTEMPT",
+      "evidenceId": "evid-1791716809508-2b9vh",
+      "verifier": "system.integrity-verifier",
+      "candidateHash": "48c4ad49f24d9116cadd6953d86bac8b507de3d4a6c6b61ee0f89a083a296a92",
+      "registeredHash": "a5b13aa8f3abfb73ec1d3256530e2e695c886d6f16b119bf7bfddd38c3fde908",
+      "result": "TAMPERED",
+      "checkedAt": "2026-10-11T11:07:04.060Z"
+    }
+  },
+  {
+    "index": 6,
+    "timestamp": "2026-10-11T11:10:39.627Z",
+    "entryType": "SECURITY_EVENT",
+    "entryId": "sec-evt-1791717039626-gjbx5",
+    "previousHash": "c420121b60f15bd4504a055c0fd11fd13c8bd6d6594c16cacaa62a2f048a9084",
+    "payloadHash": "853970890ea7075fd07027ddc745264536a2c41a8b696e93450c13b96b497d5d",
+    "blockHash": "c880dfe4a0cb49462f2e87d33a03e0a6d4e4dcff8d893562821a92c542e673f1",
+    "payload": {
+      "action": "SECURITY_EVENT_RECORDED",
+      "eventId": "sec-evt-1791717039626-gjbx5",
+      "timestamp": "2026-10-11T11:10:39.627Z",
+      "severity": "CRITICAL",
+      "category": "UNAUTHORIZED_ACCESS",
+      "title": "High-Volume SSH Credential Stuffing Attack",
+      "description": "More than 2,400 authentication attempts within 60 seconds targeting root and service accounts.",
+      "sourceIp": "198.51.100.12",
+      "destinationIp": "10.0.1.15",
+      "sourceHost": "AUTH-GATEWAY-BD-01",
+      "actor": "unknown_external_agent",
+      "evidenceRefId": null,
+      "creator": "fatima.forensics"
+    }
+  },
+  {
+    "index": 7,
+    "timestamp": "2026-10-11T11:10:39.634Z",
+    "entryType": "SECURITY_EVENT",
+    "entryId": "sec-evt-1791717039634-fynaq",
+    "previousHash": "c880dfe4a0cb49462f2e87d33a03e0a6d4e4dcff8d893562821a92c542e673f1",
+    "payloadHash": "3cb95ef7249c584c7c7149f57c17ad05ea540e6d9fc0038bb8651afafa1651ed",
+    "blockHash": "266300c69b862b57f6b8ef08d1e5a211e48bca93b55056f024444ad91aa8a388",
+    "payload": {
+      "action": "SECURITY_EVENT_RECORDED",
+      "eventId": "sec-evt-1791717039634-fynaq",
+      "timestamp": "2026-10-11T11:10:39.634Z",
+      "severity": "HIGH",
+      "category": "DATA_EXFILTRATION",
+      "title": "Suspicious Encrypted Egress Flow",
+      "description": "Unusual 4.2 MB outbound payload routed to unclassified foreign IP on non-standard port 8443.",
+      "sourceIp": "10.0.2.88",
+      "destinationIp": "203.0.113.89",
+      "sourceHost": "DATABASE-SRV-CORE",
+      "actor": "svc_database",
+      "evidenceRefId": null,
+      "creator": "fatima.forensics"
+    }
+  },
+  {
+    "index": 8,
+    "timestamp": "2026-10-11T11:10:40.195Z",
+    "entryType": "SECURITY_EVENT",
+    "entryId": "sec-evt-1791717040195-f6dom",
+    "previousHash": "266300c69b862b57f6b8ef08d1e5a211e48bca93b55056f024444ad91aa8a388",
+    "payloadHash": "ecc532b8023a5c41a33fbea9b42603b372be16337b1801bb3a9a41c2e5c2aeb9",
+    "blockHash": "0d84066cb7489341f22f4dadb28f6737fdd3cb25400fec1b23544985c95ea400",
+    "payload": {
+      "action": "SECURITY_EVENT_RECORDED",
+      "eventId": "sec-evt-1791717040195-f6dom",
+      "timestamp": "2026-10-11T11:10:40.195Z",
+      "severity": "HIGH",
+      "category": "MALWARE_DETECTION",
+      "title": "Endpoint Memory Injection Detected",
+      "description": "Heuristic sensor detected Cobalt Strike beacon reflective DLL injection in host explorer.exe process.",
+      "sourceIp": null,
+      "destinationIp": null,
+      "sourceHost": "WS-FINANCE-14",
+      "actor": "local_workstation_user",
+      "evidenceRefId": null,
+      "creator": "fatima.forensics"
+    }
+  },
+  {
+    "index": 9,
+    "timestamp": "2026-10-11T11:10:40.310Z",
+    "entryType": "SECURITY_EVENT",
+    "entryId": "sec-evt-1791717040310-erjv2",
+    "previousHash": "0d84066cb7489341f22f4dadb28f6737fdd3cb25400fec1b23544985c95ea400",
+    "payloadHash": "c7d99efcd03a97d1eb716c454c96c6640a0a17efec3141afa57b2e9d1367bf4a",
+    "blockHash": "fb60f464a9b8cbba2fd2f0e05b0edce7b37a490de76e41acf46a38b8018bd4ee",
+    "payload": {
+      "action": "SECURITY_EVENT_RECORDED",
+      "eventId": "sec-evt-1791717040310-erjv2",
+      "timestamp": "2026-10-11T11:10:40.310Z",
+      "severity": "MEDIUM",
+      "category": "INTEGRITY_VIOLATION",
+      "title": "Configuration File Modification Alert",
+      "description": "Unauthorized checksum change detected in /etc/nginx/conf.d/reverse-proxy.conf.",
+      "sourceIp": null,
+      "destinationIp": null,
+      "sourceHost": "WEB-PROXY-01",
+      "actor": "cron_integrity_daemon",
+      "evidenceRefId": null,
+      "creator": "kamal.zaman"
+    }
+  },
+  {
+    "index": 10,
+    "timestamp": "2026-10-11T11:10:47.233Z",
+    "entryType": "SECURITY_EVENT",
+    "entryId": "sec-evt-1791717047233-fnfi6",
+    "previousHash": "fb60f464a9b8cbba2fd2f0e05b0edce7b37a490de76e41acf46a38b8018bd4ee",
+    "payloadHash": "7074de36db47c0dfc778e8bd0f81bbb74f195e2137098672a8077fd9be087bb5",
+    "blockHash": "dab661a3d33bb022e20fbff3db18c3f7b5ca394c3e275c87cbc10d5c0a51cfc2",
+    "payload": {
+      "action": "SECURITY_EVENT_RECORDED",
+      "eventId": "sec-evt-1791717047233-fnfi6",
+      "timestamp": "2026-10-11T11:10:47.233Z",
+      "severity": "HIGH",
+      "category": "UNAUTHORIZED_ACCESS",
+      "title": "Lateral Movement Over SMB",
+      "description": "Psexec execution identified between finance endpoints.",
+      "sourceIp": "10.0.1.45",
+      "destinationIp": "10.0.2.10",
+      "sourceHost": null,
+      "actor": null,
+      "evidenceRefId": null,
+      "creator": "fatima.forensics"
+    }
+  }
+]

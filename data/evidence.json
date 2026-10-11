@@ -1,0 +1,52 @@
+[
+  {
+    "evidenceId": "evid-1791716809508-2b9vh",
+    "caseId": "CASE-2026-001",
+    "filename": "memory_dump_pid4102.raw",
+    "fileSizeBytes": 143,
+    "mimeType": "application/octet-stream",
+    "sha256Fingerprint": "a5b13aa8f3abfb73ec1d3256530e2e695c886d6f16b119bf7bfddd38c3fde908",
+    "custodianId": "usr-investigator-01",
+    "custodianName": "fatima.forensics",
+    "acquiredAt": "2026-10-10T22:15:00.000Z",
+    "registeredAt": "2026-10-11T11:06:49.508Z",
+    "description": "Volatile memory extraction from compromised authentication server.",
+    "tags": [
+      "MEMORY",
+      "PID-4102",
+      "CRITICAL"
+    ]
+  },
+  {
+    "evidenceId": "evid-1791716809526-u9f6i",
+    "caseId": "CASE-2026-001",
+    "filename": "network_exfil_traffic.pcap",
+    "fileSizeBytes": 119,
+    "mimeType": "application/vnd.tcpdump.pcap",
+    "sha256Fingerprint": "a6023d4f10a595ba934af3bd04a1d2ed2cc6eac199583c5bbd4d8fca758ec8a3",
+    "custodianId": "usr-investigator-01",
+    "custodianName": "fatima.forensics",
+    "acquiredAt": "2026-10-10T23:30:00.000Z",
+    "registeredAt": "2026-10-11T11:06:49.526Z",
+    "description": "Firewall tap egress capture showing encrypted beaconing channel.",
+    "tags": [
+      "NETWORK",
+      "PCAP",
+      "EXFILTRATION"
+    ]
+  },
+  {
+    "evidenceId": "evid-1791716815242-dkzs2",
+    "caseId": "CASE-TEST-01",
+    "filename": "auth_test.log",
+    "fileSizeBytes": 26,
+    "mimeType": "application/octet-stream",
+    "sha256Fingerprint": "ec47a1cbb4830234c873a4da17fa68bb82c5ad0fd83620ce1dee68150b5597f4",
+    "custodianId": "usr-investigator-01",
+    "custodianName": "fatima.forensics",
+    "acquiredAt": "2026-10-11T11:06:55.242Z",
+    "registeredAt": "2026-10-11T11:06:55.242Z",
+    "description": "",
+    "tags": []
+  }
+]

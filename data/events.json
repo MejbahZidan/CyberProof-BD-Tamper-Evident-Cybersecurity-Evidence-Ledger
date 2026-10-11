@@ -1,0 +1,122 @@
+[
+  {
+    "eventId": "sec-evt-1791717039626-gjbx5",
+    "timestamp": "2026-10-11T11:10:39.627Z",
+    "severity": "CRITICAL",
+    "category": "UNAUTHORIZED_ACCESS",
+    "sourceIp": "198.51.100.12",
+    "destinationIp": "10.0.1.15",
+    "sourceHost": "AUTH-GATEWAY-BD-01",
+    "actor": "unknown_external_agent",
+    "title": "High-Volume SSH Credential Stuffing Attack",
+    "description": "More than 2,400 authentication attempts within 60 seconds targeting root and service accounts.",
+    "metadata": {
+      "attemptsPerSec": 40,
+      "attackSignature": "BRUTE_FORCE_SSH_V2"
+    },
+    "status": "NEW",
+    "ledgerBlockIndex": 6,
+    "auditTrail": [
+      {
+        "action": "EVENT_RECORDED_AND_COMMITTED",
+        "actor": "fatima.forensics",
+        "timestamp": "2026-10-11T11:10:39.627Z",
+        "notes": "Event committed to immutable ledger Block #6"
+      }
+    ]
+  },
+  {
+    "eventId": "sec-evt-1791717039634-fynaq",
+    "timestamp": "2026-10-11T11:10:39.634Z",
+    "severity": "HIGH",
+    "category": "DATA_EXFILTRATION",
+    "sourceIp": "10.0.2.88",
+    "destinationIp": "203.0.113.89",
+    "sourceHost": "DATABASE-SRV-CORE",
+    "actor": "svc_database",
+    "title": "Suspicious Encrypted Egress Flow",
+    "description": "Unusual 4.2 MB outbound payload routed to unclassified foreign IP on non-standard port 8443.",
+    "metadata": {
+      "egressBytes": 4404019,
+      "protocol": "TLSv1.3"
+    },
+    "status": "NEW",
+    "ledgerBlockIndex": 7,
+    "auditTrail": [
+      {
+        "action": "EVENT_RECORDED_AND_COMMITTED",
+        "actor": "fatima.forensics",
+        "timestamp": "2026-10-11T11:10:39.634Z",
+        "notes": "Event committed to immutable ledger Block #7"
+      }
+    ]
+  },
+  {
+    "eventId": "sec-evt-1791717040195-f6dom",
+    "timestamp": "2026-10-11T11:10:40.195Z",
+    "severity": "HIGH",
+    "category": "MALWARE_DETECTION",
+    "sourceHost": "WS-FINANCE-14",
+    "actor": "local_workstation_user",
+    "title": "Endpoint Memory Injection Detected",
+    "description": "Heuristic sensor detected Cobalt Strike beacon reflective DLL injection in host explorer.exe process.",
+    "metadata": {
+      "malwareFamily": "Beacon.Stager",
+      "pid": 4102
+    },
+    "status": "NEW",
+    "ledgerBlockIndex": 8,
+    "auditTrail": [
+      {
+        "action": "EVENT_RECORDED_AND_COMMITTED",
+        "actor": "fatima.forensics",
+        "timestamp": "2026-10-11T11:10:40.195Z",
+        "notes": "Event committed to immutable ledger Block #8"
+      }
+    ]
+  },
+  {
+    "eventId": "sec-evt-1791717040310-erjv2",
+    "timestamp": "2026-10-11T11:10:40.310Z",
+    "severity": "MEDIUM",
+    "category": "INTEGRITY_VIOLATION",
+    "sourceHost": "WEB-PROXY-01",
+    "actor": "cron_integrity_daemon",
+    "title": "Configuration File Modification Alert",
+    "description": "Unauthorized checksum change detected in /etc/nginx/conf.d/reverse-proxy.conf.",
+    "metadata": {
+      "path": "/etc/nginx/conf.d/reverse-proxy.conf"
+    },
+    "status": "NEW",
+    "ledgerBlockIndex": 9,
+    "auditTrail": [
+      {
+        "action": "EVENT_RECORDED_AND_COMMITTED",
+        "actor": "kamal.zaman",
+        "timestamp": "2026-10-11T11:10:40.310Z",
+        "notes": "Event committed to immutable ledger Block #9"
+      }
+    ]
+  },
+  {
+    "eventId": "sec-evt-1791717047233-fnfi6",
+    "timestamp": "2026-10-11T11:10:47.233Z",
+    "severity": "HIGH",
+    "category": "UNAUTHORIZED_ACCESS",
+    "sourceIp": "10.0.1.45",
+    "destinationIp": "10.0.2.10",
+    "title": "Lateral Movement Over SMB",
+    "description": "Psexec execution identified between finance endpoints.",
+    "metadata": {},
+    "status": "NEW",
+    "ledgerBlockIndex": 10,
+    "auditTrail": [
+      {
+        "action": "EVENT_RECORDED_AND_COMMITTED",
+        "actor": "fatima.forensics",
+        "timestamp": "2026-10-11T11:10:47.233Z",
+        "notes": "Event committed to immutable ledger Block #10"
+      }
+    ]
+  }
+]

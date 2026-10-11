@@ -1,0 +1,6 @@
+{
+  "name": "CyberProof BD - Tamper-Evident Cybersecurity Evidence Ledger",
+  "description": "Tamper-evident cybersecurity evidence ledger and forensics verification platform with cryptographic hash chaining and audit dashboard.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
